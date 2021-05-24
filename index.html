@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+
+  <title>Forwarders Web API</title>
+  <meta name="Forwarders Web API" content="Forwarders">
+  <meta name="Damian Cabello" content="Forwarders Web API">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h2>Forwarders Web API</h2>
+    <div class="loader">
+      <h1>
+        <span class="let1">l</span>  
+        <span class="let2">o</span>  
+        <span class="let3">a</span>  
+        <span class="let4">d</span>  
+        <span class="let5">i</span>  
+        <span class="let6">n</span>  
+        <span class="let7">g</span>  
+      </h1>
+    </div>
+
+    <div class="content hide">
+      <fieldset>
+        <legend>Radios hoy conectadas</legend>
+        <label id="maxRadios">5</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Total datos</legend>
+        <label id="totalData">5</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dato más antiguo</legend>
+        <label id="oldData">5</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Oyentes máximos por fecha
+          <select id="selectDate">
+            <option value="-1">Seleccione una fecha</option>
+          </select>
+        </legend>
+        <label id="maxRadiosDay">Nada seleccionado</label>
+      </fieldset>
+
+      <button id="reload">Reload data</button>
+    </div>
+
+  
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
